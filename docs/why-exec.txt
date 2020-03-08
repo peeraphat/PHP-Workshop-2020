@@ -1,0 +1,7 @@
+Fetch data
+$var = $conn->qurey(SQL);
+$result = $var->fetch()  ,  $var->fetchAll()
+
+
+Insert data , Delete data
+$conn->exec(SQL)
